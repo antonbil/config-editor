@@ -2,9 +2,9 @@
 
 **Contributors:** Anton Bil
 **Tags:** config, editor, child theme, json, ini, settings, development
-**Requires at least:** 5.0 (Pas aan indien nodig)
+**Requires at least:** 5.0
 **Tested up to:** 6.8
-**Stable tag:** 1.0.0 (Start met je eerste versie)
+**Stable tag:** 1.0.0
 **License:** GPLv2 or later
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,8 +33,8 @@ Developers can use a WordPress filter (`ceds_register_config_files`) to make the
 ## Installation
 
 1.  **Download:**
-    *   Download the `config-editor-plugin.zip` file from the [GitHub repository Releases page](https://github.com/jouw-gebruikersnaam/jouw-repository-naam/releases) (link aanpassen!).
-    *   OR: Clone the repository: `git clone https://github.com/jouw-gebruikersnaam/jouw-repository-naam.git`
+    *   Download the `config-editor-plugin.zip` file from the [GitHub repository Releases page](https://github.com/antonbil/config-editor/releases).
+    *   OR: Clone the repository: `git clone https://github.com/antonbil/config-editor.git`
 2.  **Upload to WordPress:**
     *   Log in to your WordPress admin panel.
     *   Navigate to `Plugins` > `Add New`.
@@ -88,14 +88,6 @@ return $files;
 *   **Security:** Only register files that are intended to be user-editable. Be mindful of the security implications. This plugin implements basic path safety checks, but the responsibility for what is registered lies with the developer hooking into the filter.
 *   **File Types:** While the editor is a simple textarea, it's best suited for text-based configuration formats like JSON, INI, or simple PHP arrays.
 
-## Screenshots
-
-*(Optioneel, maar sterk aanbevolen)*
-
-1.  *(Beschrijving van screenshot 1: bijv. The main editor interface showing the file selector.)*
-    `link-naar-screenshot-1.png`
-2.  *(Beschrijving van screenshot 2: bijv. Editing a JSON file.)*
-    `link-naar-screenshot-2.png`
 
 ## Changelog
 
@@ -127,4 +119,4 @@ Contributions are welcome! Please feel free to fork the repository, make changes
 
 ## Support
 
-If you encounter any issues or have a feature request, please open an issue on the [GitHub repository issue tracker](https://github.com/jouw-gebruikersnaam/jouw-repository-naam/issues) (link aanpassen!).
+If you encounter any issues or have a feature request, please open an issue on the [GitHub repository issue tracker](https://github.com/antonbil/config-editor/issues).
