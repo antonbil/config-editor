@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Config Editor for Database Sync 1.2.0\n"
+"Report-Msgid-Bugs-To: https://yourwebsite.url/contact\n"
+"POT-Creation-Date: YYYY-MM-DD HH:MM+ZZZZ\n"
+"PO-Revision-Date: ZZZZ-JJ-DD UU:MM+TTTT\n"
+"Last-Translator: Anton Bil <jouw.email@example.com>\n"
+"Language-Team: Nederlands <jouw.email@example.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0 or similar\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name from plugin header
+msgid "Config Editor for Database Sync"
+msgstr "Configuratie Editor voor Database Sync"
+
+#. Plugin URI from plugin header
+msgid "https://yourwebsite.url/"
+msgstr "https://jouwwebsite.url/"
+
+#. Description from plugin header
+msgid "A plugin to edit the databasesync_config.json file located in the active child theme's directory."
+msgstr "Een plugin om het databasesync_config.json bestand te bewerken, dat zich in de map van het actieve child theme bevindt."
+
+#. Author from plugin header
+msgid "Anton Bil"
+msgstr "Anton Bil"
+
+#: (path-to-your-plugin-file.php:line_number_of_add_options_page)
+msgid "Database Sync Config"
+msgstr "Database Sync Configuratie"
+
+#: (path-to-your-plugin-file.php:line_number_of_add_options_page)
+msgid "DB Sync Config"
+msgstr "DB Sync Config"
+
+#: (path-to-your-plugin-file.php:line_number_of_error_in_process_data)
+# translators: %1$s: HTML formatted config filename, %2$s: HTML formatted expected file path
+msgid "Error: Configuration file %1$s not found in the active theme directory: %2$s"
+msgstr "Fout: Configuratiebestand %1$s niet gevonden in de map van het actieve thema: %2$s"
+
+#: (path-to-your-plugin-file.php:line_number_of_warning_in_process_data)
+# translators: %s: HTML formatted config file path
+msgid "Warning: The configuration file %s is not writable. Please check server permissions."
+msgstr "Waarschuwing: Het configuratiebestand %s is niet schrijfbaar. Controleer de serverrechten."
+
+#: (path-to-your-plugin-file.php:line_number_of_permission_error_in_process_data_and_shortcode)
+msgid "You do not have sufficient permissions to save this configuration."
+msgstr "U heeft onvoldoende rechten om deze configuratie op te slaan."
+
+#: (path-to-your-plugin-file.php:line_number_of_json_error_in_process_data)
+# translators: %s: JSON error message from PHP
+msgid "Error: The entered text is not valid JSON. (%s)"
+msgstr "Fout: De ingevoerde tekst is geen geldige JSON. (%s)"
+
+#: (path-to-your-plugin-file.php:line_number_of_save_success_in_process_data)
+msgid "Configuration saved successfully."
+msgstr "Configuratie succesvol opgeslagen."
+
+#: (path-to-your-plugin-file.php:line_number_of_write_error_in_process_data)
+msgid "Error writing to the configuration file. Please check file permissions or disk space."
+msgstr "Fout bij het schrijven naar het configuratiebestand. Controleer de bestandsrechten of schijfruimte."
+
+#: (path-to-your-plugin-file.php:line_number_of_read_error_in_process_data)
+msgid "Error reading the configuration file."
+msgstr "Fout bij het lezen van het configuratiebestand."
+
+#: (path-to-your-plugin-file.php:line_number_of_filesystem_error_in_process_data)
+msgid "Error: WordPress Filesystem API could not be initialized."
+msgstr "Fout: WordPress Filesystem API kon niet worden geïnitialiseerd."
+
+#: (path-to-your-plugin-file.php:line_number_of_permission_error_in_render_wrapper_and_shortcode)
+msgid "You do not have sufficient permissions to access this page."
+msgstr "U heeft onvoldoende rechten om deze pagina te openen."
+
+#: (path-to-your-plugin-file.php:line_number_of_permission_error_in_shortcode_handler)
+msgid "You do not have sufficient permissions to view or edit this configuration."
+msgstr "U heeft onvoldoende rechten om deze configuratie te bekijken of te bewerken."
+
+#: (path-to-your-plugin-file.php:line_number_of_label_in_shortcode_form)
+msgid "JSON Configuration Content"
+msgstr "JSON Configuratie Inhoud"
+
+#: (path-to-your-plugin-file.php:line_number_of_label_in_shortcode_form)
+msgid "Text File Content"
+msgstr "Tekstbestand Inhoud"
+
+#: (path-to-your-plugin-file.php:line_number_of_label_in_shortcode_form)
+msgid "File Content"
+msgstr "Bestandsinhoud"
+
+#: (path-to-your-plugin-file.php:line_number_of_json_help_text_in_shortcode_form)
+msgid "Ensure the JSON structure remains valid. Incorrect JSON can lead to issues reading the data."
+msgstr "Zorg ervoor dat de JSON-structuur geldig blijft. Incorrecte JSON kan problemen veroorzaken bij het lezen van de gegevens."
+
+#: (path-to-your-plugin-file.php:line_number_of_save_button_in_shortcode_form)
+msgid "Save Configuration"
+msgstr "Configuratie Opslaan"
+
+#: (path-to-your-plugin-file.php:line_number_of_editing_file_text_in_shortcode_form)
+# translators: %s: HTML formatted file path
+msgid "Editing file: %s"
+msgstr "Bestand bewerken: %s"
+
+#: (path-to-your-plugin-file.php:line_number_of_file_not_processed_error_in_shortcode_handler)
+# translators: %s: HTML formatted filename
+msgid "Error: Configuration file %s could not be processed or was not found."
+msgstr "Fout: Configuratiebestand %s kon niet worden verwerkt of werd niet gevonden."
