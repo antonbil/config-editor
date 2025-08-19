@@ -1,6 +1,6 @@
 # Config File Editor for WordPress
 
-**Contributors:** Anton Bil
+**Author:** [Anton Bil](https://familiebil.nl/anton)
 **Tags:** config, editor, child theme, json, ini, settings, development
 **Requires at least:** 5.0
 **Tested up to:** 6.8
